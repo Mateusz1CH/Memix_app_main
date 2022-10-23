@@ -1,0 +1,17 @@
+div {
+  height: calc(100vh - 50px);
+}
+title { text-align: center }
+p { text-align: center }
+h1 { text-align: center }
+img {
+    height: auto;
+    width: auto;
+    max-width: 600px;
+    max-height: 600px;
+}
+body {
+    background-color: black;
+    color: lime;
+    font-family: monospace;
+}
