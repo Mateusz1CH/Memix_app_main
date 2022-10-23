@@ -4,7 +4,13 @@ div {
 title { text-align: center }
 p { text-align: center }
 h1 { text-align: center }
-img {
+.image1 {
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+.image2 {
     height: auto;
     width: auto;
     max-width: 600px;
@@ -12,6 +18,7 @@ img {
 }
 body {
     background-color: black;
+    text-align: center;
     color: lime;
     font-family: monospace;
 }
