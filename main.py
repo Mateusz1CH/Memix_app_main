@@ -14,6 +14,6 @@ def get_meme():
 @app.route("/")
 def index():
     meme, subreddit = get_meme()
-    return render_template("index.html")
+    return render_template("index.html", meme=meme, subreddit=subreddit)
 
 app.run(host="0.0.0.0", port=80)
