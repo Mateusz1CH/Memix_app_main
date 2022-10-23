@@ -10,7 +10,6 @@ Werkzeug~=2.2.2
 itsdangerous~=2.1.2
 charset-normalizer~=2.1.1
 MarkupSafe~=2.1.1
-urlib3~=1.26.12
 wheel~=0.37.1
 colorama~=0.4.5
 
