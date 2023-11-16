@@ -11,7 +11,7 @@ def get_meme_old():
     subreddit = response['subreddit']
     return meme, subreddit
 def get_meme():
-    url = "https://meme-api.com"
+    url = "https://meme-api.com/gimme"
     try:
         response = requests.get(url)
         response.raise_for_status()  
