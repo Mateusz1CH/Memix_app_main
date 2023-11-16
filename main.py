@@ -5,7 +5,7 @@ import json
 app = Flask(__name__)
 
 def get_meme():
-    url = "https://meme-api.herokuapp.com/gimme"
+    url = "https://meme-api.com"
     response = json.loads(requests.request("GET", url).text)
     meme = response["preview"][-2]
     subreddit = response['subreddit']
